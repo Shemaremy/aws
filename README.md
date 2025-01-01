@@ -2,7 +2,7 @@
 -------------
 
 
-
+0. Configuration with vscode
 1. AWS EC2
 2. AWS Lambda
 3. Elastic Beanstalk
