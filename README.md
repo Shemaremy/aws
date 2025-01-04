@@ -1,9 +1,9 @@
 # AWS Wrapper
 -------------
-
+0. Compute, Storage, Database, Networking
 1. AWS Management Console
-2. Storage Optimized Instances
-3. Compute Optimized Instances
+2. AWS Storage
+3. AWS Compute
 4. Databases
 5. Serverless
 6. Working with user data
@@ -23,6 +23,11 @@
 ## AWS Wrapper explanation
 --------------------------
 
+0. Compute, Storage, Database, Networking 
+- Compute (EC2): Processing power 
+- Storage (S3): Like storing product images
+- Databases (RDS): Like storing  customers and products info
+- Networking (VPC): Servers and databases to communicate securely and efficient
 
 1. AWS Management Console (purpose, features, structure(widgets), launch, billing considerations)
 - Payment modals (Pay as you go, Save when you commit, Pay less using more)
@@ -33,8 +38,22 @@
 
 
 
-2. Storage Optimized Instances (Large Media)
-3. Compute Optimized Instances (Gaming)
+2. AWS Storage (Intro, types)
+- Intro to S3
+- On-premises storage (hosted on site or locally)
+- Cloud storage (Data is accessed using internet using aws)
+
+- Block storage (Hosting databases, Analytics, Availability and Durablity)
+- Object storage (Disaster recovery, Less needed data, Cloud native apps)
+- File storage
+
+- EBS: Block storage designed for EC2 instances
+- EFS: Lets you share file systems across multiple EC2 instances. It's like a shared network drive in the cloud
+- S3: Object storage designed to store massive amounts of data in the cloud.
+
+
+
+3. AWS Compute
 4. Databases
 5. Serverless
 
